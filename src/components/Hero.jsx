@@ -20,7 +20,7 @@ function Hero() {
           everything at your fingertips.
         </p>
 
-        <div className="btn-2 flex gap-4 justify-center items-center md:flex-row flex-col">
+        <div className="flex gap-4 justify-center items-center md:flex-row flex-col">
           <Button className="rounded-md flex gap-3 capitalize bg-gray-400 md:justify">
             <FaGooglePlay className="h-4 w-4" />
             Get it on Google Play

@@ -96,9 +96,22 @@ function Header() {
         <Collapse open={open}>
           <div className="mt-2 rounded-xl bg-white py-2 px-3">
             <NavList />
-            <Button className="mb-2" fullWidth>
-              Sign in
-            </Button>
+            <a href="#">
+              <Button variant="outlined" className="mb-4" fullWidth>
+                Contact Us
+              </Button>
+            </a>
+
+            <a href="#">
+              <Button
+                variant="filled"
+                color={"black"}
+                onClick={() => {}}
+                fullWidth
+              >
+                Download App{" "}
+              </Button>
+            </a>
           </div>
         </Collapse>
       </Navbar>
